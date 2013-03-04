@@ -1,0 +1,11 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: scalpel_development
+  pool: 5
+  host: localhost
+  username: swong2185
+  password:
+
+
