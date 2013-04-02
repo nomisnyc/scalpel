@@ -39,8 +39,9 @@ ActiveRecord::Schema.define(:version => 20130302224456) do
     t.string   "image_url"
     t.string   "url"
     t.string   "nokogiri_selector"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
+    t.string   "nokogiri_link_selector"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
   end
 
 end

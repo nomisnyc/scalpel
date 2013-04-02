@@ -6,8 +6,8 @@ resources :users, :except => [:edit] do
     get 'edit'
   end
 end
-
-
+post '/shows' => 'websites#shows'
+get '/shows' => 'websites#shows'
 resources :home, :websites, :presets
 
   get '/login' => 'session#new'

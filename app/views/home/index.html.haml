@@ -1,0 +1,21 @@
+.row
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  %br
+  .large-12.columns
+    #indexlogbox
+  .large-12.columns
+    .index 
+      = link_to('login', login_path, :id => 'logbutton', :remote => true)
+      %h1 scalpel
+      = link_to(' new user ', new_user_path, :id => 'registerbutton', :remote => true)
+  .large-12.columns
+    %br
+    #indexregisterbox

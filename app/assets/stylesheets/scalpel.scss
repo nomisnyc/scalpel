@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic);
+
+.row
+{
+  margin: 2px auto;
+}
+.top-bar
+{
+  background: rgba(028, 052, 076, .6);
+  height: 70px;
+}
+.index h1
+{
+  color: #FF9D4D;
+  font-size: 130px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200; 
+  -moz-text-shadow: 5px 5px 5px black;
+-webkit-text-shadow: 5px 5px 5px black;
+text-shadow: 5px 5px 5px black;
+  // background: rgba(105, 121, 154, .8);
+  // overflow: visible;
+  width: 800px;
+  border-radius: 40px;
+  line-height: 80px;
+  height: 40px;
+  margin-left: 300px;
+}
+a#registerbutton
+{ font-size: 25px;
+  float: right;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 6px 10px;
+  margin: 5px 15px;
+  -moz-box-shadow: 0 0 2px 2px #888;
+  -webkit-box-shadow: 0 0 2px 2px#888;
+  box-shadow: 0 0 2px 2px #888;
+  color: #0099cc;
+  opacity: .5;
+  border: 1px solid black;
+}
+a#logbutton
+{
+  float: left;
+  font-size: 25px;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 6px 10px;
+  margin: 5px 15px;
+  -moz-box-shadow: 0 0 2px 2px #888;
+  -webkit-box-shadow: 0 0 2px 2px#888;
+  box-shadow: 0 0 2px 2px #888;
+  color: #0099cc;
+  opacity: .5;
+  border: 1px solid black;
+}
+body 
+{
+ background: url('newspaper.jpg') no-repeat center center fixed;
+ margin: 2px auto;
+}
+
+li
+{
+	font-size: 18px;
+	float: right;
+	margin: 10px auto;
+	padding: 5px 15px;
+	list-style: none;
+}
+
+#container
+{ background: url('kindajean.png') repeat;
+  width: 990px;
+  max-height: 2000px;
+  margin: 10px auto;
+  opacity: .9;
+}
+
+.website_box
+{
+  color: #FF9D4D;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; 
+  font-size: 30px;
+  text-align: center;
+  border: grey 2px dotted;
+  padding: 20px 5px;
+  height: 300px;
+  width: 300px;
+  float: right;
+  background: rgba(028, 052, 076, .6);
+  border-radius: 40px;
+  margin: 10px 10px;
+   -moz-box-shadow: 5px 5px 5px black;
+-webkit-box-shadow: 5px 5px 5px black;
+box-shadow: 5px 5px 5px black;
+}
+.website_box img 
+{
+  max-width: 210px;
+  max-height: 160px;
+  margin: 2px auto;
+  border-radius: 20px;
+  border: orange dotted 2px;
+}
+.subheader
+{
+  font-size: 42px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; 
+  margin-left: 60px;
+  color: #FF9D4D;
+}
+#signup, #login, #new_website_form
+{
+  font-size: 20px;
+  background: rgba(0, 0, 0, .4);
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 20px;
+  color: #FF9D4D;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; 
+}
+h5
+{
+  color: #FF9D4D;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; 
+  font-size: 28px;
+  text-align: center;
+}
+#website_button button, #website_button a, .button_nav_show, .button_nav_cancel
+{
+  font-size: 20px;
+  background: rgba(0, 0, 0, .4);
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 20px;
+  color: #FF9D4D;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; 
+  margin: 5px auto;
+  text-align: center;
+}
+.site_show_text
+{
+  color: #FF9D4D;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400; 
+  font-size: 24px;
+  margin: 2px auto;
+  width: 970px;
+  text-align: center;
+  padding: 10px 20px;
+}
+.site_show_img img
+{
+  margin: 2px 5px;
+  max-width: 300px;
+  max-height: 300px;
+  float: left;
+}

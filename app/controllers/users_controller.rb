@@ -5,11 +5,6 @@ class UsersController < ApplicationController
   def index
     @users = User.all
   end
-  def destroy
-    user = User.find(params[:id])
-    user.delete
-    redirect_to(users_path)
-  end
   def new
     @user = User.new
   end
@@ -19,18 +14,6 @@ class UsersController < ApplicationController
       redirect_to(root_path)
     else
       render :new
-    end
-  end
-  def edit
-    @user = @auth
-    render :new
-  end
-  def update
-    @user = @auth
-    if @user.update_attributes(params[:user])
-      redirect_to(root_path)
-    else
-      render
     end
   end
  private

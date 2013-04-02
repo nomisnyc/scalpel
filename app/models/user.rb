@@ -15,5 +15,5 @@ class User < ActiveRecord::Base
   has_secure_password
   attr_accessible :name, :email, :password, :password_confirmation
   has_many :presets, :inverse_of => :user
-  validates :name, :uniqueness => true, :length => { :minimum => 2 }
+  validates :name, :uniqueness => true, :length => { :minimum => 1 }
 end 

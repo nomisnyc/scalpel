@@ -5,6 +5,7 @@ class AddWebsitesTable < ActiveRecord::Migration
       t.string :image_url
       t.string :url
       t.string :nokogiri_selector
+      t.string :nokogiri_link_selector
       t.timestamps
   	end
   end

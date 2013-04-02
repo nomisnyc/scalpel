@@ -1,2 +1,28 @@
-%p.newlink= link_to('New Website', new_website_path, :class => 'button radius') #if is_admin?
-= render :partial => '/shared/websites', :locals => {:websites => @websites}
+#container
+  = render :partial => 'layouts/nav' 
+  .row
+    .large-12.columns
+      %br
+      #new_website_form
+
+
+    .large-12.columns
+      %br
+      #website_button
+        =button_tag 'Scrape', :id => 'scrape_button'
+        =button_tag 'Add to Presets', :id => 'preset_button'
+        =link_to('New Website', new_website_path, :remote => 'true')
+        %br
+
+    .large-12.columns
+      %br
+      %br
+      - @websites.each do |website|
+        .website_box{ data: { id: website.id } }
+          %br
+          %td= link_to(website.name.titleize, website.url, :target => '_blank')
+          %br
+          %br
+          %td= link_to image_tag(website.image_url), website.url, :target => '_blank'
+          %br
+          %br
